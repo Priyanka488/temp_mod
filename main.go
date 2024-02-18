@@ -1,7 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"sync"
+	"github.com/Priyanka488/temp_mod/pkg/api"
 )
 
+func main() {
+	api.CallAPI()
+}
